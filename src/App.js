@@ -15,7 +15,7 @@ import { getCart, storeCart } from './cartHelpers';
 
 const App = () => {
     const [cart, setCart] = useState({});
-
+// sample commit
 //Fetching cart from local storage//
     useEffect(() => {
         getCart().then(cart => {
